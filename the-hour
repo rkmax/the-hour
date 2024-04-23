@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+current_script_dir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+
+$current_script_dir/.venv/bin/python $current_script_dir/main.py
